@@ -3,10 +3,31 @@
     --accent-color: #2196F3;
     --second-color: #757575;
     --third-color: #ffffff;
-    --fourth-color: #ffffff99;
+    --fourth-color: rgba(255, 255, 255, 0.6);
     --background-accent-color: #2196F3;
     --background-second-color: #188CE8;
 }
+
+/* ===== СБРОС ЗНАЧЕНИЯ БРАУЗЕРОВ ПО УМОЛЧАНИЮ =====*/
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ img {
+     display: block;
+ }
 
 .list {
     list-style: none;
@@ -20,6 +41,8 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-color);
 }
+
+/* ===== /СБРОС ЗНАЧЕНИЯ БРАУЗЕРОВ ПО УМОЛЧАНИЮ =====*/
 
 /* ========== LOGO ========== */
 
@@ -36,7 +59,7 @@ body {
 }
 
 .logo-theme-dark {
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 /* ========== /LOGO ========== */
