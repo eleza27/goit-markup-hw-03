@@ -44,6 +44,16 @@ body {
 
 /* ===== /СБРОС ЗНАЧЕНИЯ БРАУЗЕРОВ ПО УМОЛЧАНИЮ =====*/
 
+/* ===== КОНТЕЙНЕР =====*/
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* ========== LOGO ========== */
 
 .logo {
@@ -53,6 +63,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    margin-right: 93px;
 }
 .logo-theme-light {
     color: #000000;
@@ -65,6 +76,37 @@ body {
 /* ========== /LOGO ========== */
 
 /* ========== HEADER ========== */
+
+.page-header {
+    background: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.page-header-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
 
 .menu-link {
     color: #212121;
@@ -89,6 +131,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-color);
+    margin-right: 50px;
 }
 
 .page-header-email:hover,
