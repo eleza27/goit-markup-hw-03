@@ -26,9 +26,9 @@ ol {
     padding-left: 0;
 }
 
- img {
-     display: block;
- }
+img {
+    display: block;
+}
 
 .list {
     list-style: none;
@@ -74,6 +74,7 @@ body {
     color: var(--accent-color);
     margin-right: 93px;
 }
+
 .logo-theme-light {
     color: #000000;
 }
@@ -179,7 +180,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--third-color);
+    color: #FFFFFF;
     padding: 200px 452px 0px;
 }
 
@@ -202,7 +203,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    }
+}
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -234,24 +235,12 @@ body {
 
 /* ========== DOINGS ========== */
 
-.doings-title {  
+.doings-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
-}
-
-.doings-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.doings-item:not(:nth-child(3n)) {
-    margin-right: 30px;
-}
-
 }
 
 /* ========== /DOINGS ========== */
@@ -351,7 +340,7 @@ body {
 }
 
 .address-email,
-.address-phone-number{
+.address-phone-number {
     color: var(--second-color);
 }
 
