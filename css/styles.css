@@ -166,12 +166,11 @@ body {
 
 /* ========== HERO ========== */
 
-
 .hero-container {
     padding: 0px;
     background-color: var(--background-third-color);
+    padding: 200px 452px 280px;
     width: 1600px;
-    height: 600px;
 }
 
 .hero-title {
@@ -181,8 +180,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    padding: 200px 452px 0px;
+    color: #FFFFFF;   
 }
 
 .hero-btn {
@@ -198,6 +196,7 @@ body {
     color: var(--third-color);
     background: var(--background-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0px;
     border-radius: 4px;
     min-width: 200px;
     padding: 10px 32px;
@@ -294,8 +293,6 @@ body {
     background-color: #F5F4FA;
 }
 
-
-
 .our-team-title {
     font-weight: 700;
     font-size: 36px;
@@ -344,8 +341,6 @@ body {
 
 /* ========== /OUR TEAM ========== */
 
-
-
 /* ========== portfolio.html SECTION OUR PROJECTS ========== */
 
 .section-filter-button {
@@ -383,6 +378,15 @@ body {
 /* ========== /portfolio.html SECTION OUR PROJECTS ========== */
 
 /* ========== FOOTER ========== */
+
+.footer {
+    background-color: var(--background-third-color);
+}
+
+.footer-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .address-map {
     color: var(--third-color);
