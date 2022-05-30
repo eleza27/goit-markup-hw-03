@@ -182,6 +182,7 @@ body {
 }
 
 .hero-container {
+    text-align: center;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -189,12 +190,12 @@ body {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
+    line-height: 1.36;    
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
     padding-top: 200px;
+    margin-bottom: 30px;
 }
 .hero-title-part {
     display: block;
@@ -205,9 +206,6 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--third-color);
@@ -217,7 +215,7 @@ body {
     border-radius: 4px;
     min-width: 200px;
     padding: 10px 32px;
-    margin: 30px auto 200px;
+    margin-bottom: 200px;
 }
 
 .hero-btn:hover,
