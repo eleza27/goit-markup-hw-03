@@ -165,11 +165,13 @@ body {
 
 /* ========== HERO ========== */
 
-.hero-container {
-    padding: 0px;
+.hero {
     background-color: var(--background-third-color);
-    padding: 200px 452px 280px;
-    width: 1600px;
+}
+
+.hero-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .hero-title {
@@ -179,7 +181,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;   
+    color: #FFFFFF;
+    padding-top: 200px;
+}
+.hero-title-part {
+    display: block;
 }
 
 .hero-btn {
@@ -199,9 +205,7 @@ body {
     border-radius: 4px;
     min-width: 200px;
     padding: 10px 32px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    margin: 30px auto 200px;
 }
 
 .hero-btn:hover,
