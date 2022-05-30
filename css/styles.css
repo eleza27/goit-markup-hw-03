@@ -216,12 +216,33 @@ body {
 
 /* ========== ADVANTAGES ========== */
 
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantages-section {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+.advantages-item {
+    width: 270px;
+}
+
+.advantages-item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
 .advantages-item-name {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
 .advantages-descr {
