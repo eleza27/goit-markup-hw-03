@@ -194,7 +194,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-top: 200px;
+    margin-top: 106px;
     margin-bottom: 30px;
 }
 .hero-title-part {
@@ -215,7 +215,7 @@ body {
     border-radius: 4px;
     min-width: 200px;
     padding: 10px 32px;
-    margin-bottom: 200px;
+    margin-bottom: 106px;
 }
 
 .hero-btn:hover,
