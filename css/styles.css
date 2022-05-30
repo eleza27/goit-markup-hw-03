@@ -28,6 +28,8 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .list {
@@ -71,6 +73,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    display: block;
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -118,6 +121,7 @@ body {
 }
 
 .menu-link {
+    display: block;
     color: #212121;
     font-weight: 500;
     font-size: 14px;
@@ -142,6 +146,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-color);
+    display: block;
     margin-right: 50px;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -158,6 +163,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-color);
+    display: block;
     padding-top: 24px;
     padding-bottom: 25px;
 }
