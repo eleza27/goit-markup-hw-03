@@ -241,6 +241,16 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.doings-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doings-item:not(:nth-child(3n)) {
+    margin-right: 30px;
 }
 
 /* ========== /DOINGS ========== */
@@ -277,12 +287,17 @@ body {
     margin-right: 30px;
 }
 
+.our-team-img {
+    margin-bottom: 30px;
+}
+
 .our-team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 10px;
 }
 
 .our-team-prof {
@@ -291,6 +306,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-color);
+    padding-bottom: 30px;
 }
 
 /* ========== /OUR TEAM ========== */
