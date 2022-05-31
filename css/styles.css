@@ -66,7 +66,7 @@ body {
 
 /* ========== LOGO ========== */
 
-.logo {
+.logo-page-header {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -116,6 +116,10 @@ body {
     align-items: center;
 }
 
+.page-header-item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .menu-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -147,7 +151,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-color);
     display: block;
-    margin-right: 50px;
+    
     padding-top: 24px;
     padding-bottom: 25px;
 }
@@ -179,12 +183,9 @@ body {
 
 .hero {
     background-color: var(--background-third-color);
-}
-
-.hero-container {
     text-align: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -194,7 +195,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 106px;
     margin-bottom: 30px;
 }
 .hero-title-part {
@@ -215,7 +215,6 @@ body {
     border-radius: 4px;
     min-width: 200px;
     padding: 10px 32px;
-    margin-bottom: 106px;
 }
 
 .hero-btn:hover,
@@ -232,11 +231,6 @@ body {
 .advantages-list {
     display: flex;
     flex-wrap: wrap;
-}
-
-.advantages-section {
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 .visually-hidden {
@@ -281,6 +275,10 @@ body {
 
 /* ========== DOINGS ========== */
 
+.doings {
+    padding-top: 0px;
+}
+
 .doings-title {
     font-weight: 700;
     font-size: 36px;
@@ -305,11 +303,6 @@ body {
 
 .our-team {
     background-color: #F5F4FA;
-}
-
-.our-team-section {
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 .our-team-title {
@@ -339,8 +332,9 @@ body {
     margin-right: 30px;
 }
 
-.our-team-img {
-    margin-bottom: 30px;
+.our-team-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .our-team-name {
@@ -358,27 +352,17 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-color);
-    margin-bottom: 30px;
 }
 
 /* ========== /OUR TEAM ========== */
 
 /* ========== portfolio.html SECTION OUR PROJECTS ========== */
 
-.our-projects-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 172px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-}
-
 .section-filter-list {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .section-filter-item:not(:nth-child(5n)) {
@@ -412,7 +396,6 @@ body {
 }
 
 .our-projects-item {
-    border: 1px solid #EEEEEE;
     /*  flex-basis: calc((100%-60px)/3); */ 
     width: 370px;
     margin-bottom: 30px;
@@ -422,12 +405,23 @@ body {
     margin-right: 30px;
 }
 
+.out-projects-item:nth-last-child(-n + 3) {
+    margin-bottom: 0px;
+}
+
+.our-project-description {
+    padding: 20px 24px;
+    border-right: 1px solid #EEEEEE;;
+    border-bottom: 1px solid #EEEEEE;;
+    border-left: 1px solid #EEEEEE;;
+}
+
 .project-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin: 20px 24px 2px;
+    margin-bottom: 4px;
 }
 
 .project-type {
@@ -435,7 +429,6 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--second-color);
-    margin: 2px 24px 20px;
 }
 
 /* ========== /portfolio.html SECTION OUR PROJECTS ========== */
@@ -444,11 +437,18 @@ body {
 
 .footer {
     background-color: var(--background-third-color);
-}
-
-.footer-container {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    display: block;
 }
 
 .address-map {
@@ -458,6 +458,14 @@ body {
 .address-email,
 .address-phone-number {
     color: var(--second-color);
+}
+
+.address-footer {
+    margin-top: 20px;
+}
+
+.address-footer-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .address-footer-item-link {
