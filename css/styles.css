@@ -465,25 +465,35 @@ body {
     letter-spacing: 0.03em;
 }
 
-.clients-item {
+.clients-list {
     display: flex;
 }
 
-
-.clients-list-img {
+.clients-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 30px;
     width: 170px;
     height: 92px;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
 }
 
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .clients-list-icon {
     fill: var(--icon-color);
+}
+
+.clients-list-link:hover {
+    border: 1px solid var(--accent-color);
+}
+
+.clients-list-link:hover .clients-list-icon {
+    fill: var(--accent-color);
 }
 
 /* ========== /CLIENTS ========== */
