@@ -4,6 +4,7 @@
     --second-color: #757575;
     --third-color: #ffffff;
     --fourth-color: rgba(255, 255, 255, .6);
+    --icon-color: #AFB1B8;
     --background-accent-color: #2196F3;
     --background-second-color: #188CE8;
     --background-third-color: #2F303A;
@@ -407,6 +408,8 @@ body {
 }
 
 .our-team-prof {
+    margin-bottom: 16px;
+
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -414,7 +417,77 @@ body {
     color: var(--second-color);
 }
 
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list-icon {
+    fill: var(--icon-color);
+}
+
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: var(--third-color);
+}
+
 /* ========== /OUR TEAM ========== */
+
+/* ========== CLIENTS ========== */
+
+.clients-title {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.clients-item {
+    display: flex;
+}
+
+
+.clients-list-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+}
+
+.clients-list-icon {
+    fill: var(--icon-color);
+}
+
+/* ========== /CLIENTS ========== */
+
 
 /* ========== portfolio.html SECTION OUR PROJECTS ========== */
 
