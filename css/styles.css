@@ -3,7 +3,7 @@
     --accent-color: #2196F3;
     --second-color: #757575;
     --third-color: #ffffff;
-    --fourth-color: rgba(255, 255, 255, 0.6);
+    --fourth-color: rgba(255, 255, 255, .6);
     --background-accent-color: #2196F3;
     --background-second-color: #188CE8;
     --background-third-color: #2F303A;
@@ -472,7 +472,7 @@ body {
 
 .address-email,
 .address-phone-number {
-    color: var(--second-color);
+    color: var(--fourth-color);
 }
 
 .address-footer {
