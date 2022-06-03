@@ -219,7 +219,7 @@ body {
     max-width: 1600px;
 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/1-hero/hero-bg.jpg");
-    background-color: var(--background-third-color);
+    background-color: var(--background-fourth-color);
     background-size: cover;
 
 }
@@ -291,6 +291,24 @@ body {
 
 .advantages-item:not(:nth-child(4n)) {
     margin-right: 30px;
+}
+
+.advantages-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.advantages-icon {
+    width: 70px;
+    height: 70px;
+    fill: var(--main-color);
 }
 
 .advantages-item-name {
