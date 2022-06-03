@@ -7,6 +7,7 @@
     --background-accent-color: #2196F3;
     --background-second-color: #188CE8;
     --background-third-color: #2F303A;
+    --background-fourth-color: #C4C4C4;
 }
 
 /* ===== СБРОС ЗНАЧЕНИЯ БРАУЗЕРОВ ПО УМОЛЧАНИЮ =====*/
@@ -148,7 +149,8 @@ body {
 }
 
 .page-header-email {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
 
@@ -159,13 +161,31 @@ body {
     color: var(--second-color);
 }
 
+.email-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.phone-icon {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.page-header-email:hover .email-icon,
+.page-header-email:focus .email-icon {
+    fill: var(--accent-color);
+}
+
 .page-header-email:hover,
 .page-header-email:focus {
     color: var(--accent-color);
 }
 
 .page-header-phone-number {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
 
@@ -174,6 +194,11 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-color);  
+}
+
+.page-header-phone-number:hover .phone-icon,
+.page-header-phone-number:focus .phone-icon{
+    fill: var(--accent-color);
 }
 
 .page-header-phone-number:hover,
@@ -189,8 +214,14 @@ body {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
 
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/1-hero/hero-bg.jpg");
     background-color: var(--background-third-color);
+    background-size: cover;
+
 }
 
 .hero-title {
