@@ -581,6 +581,114 @@ body {
 /* ========== FOOTER ========== */
 
 .footer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--background-third-color);
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.footer-left {
+    margin-right: 70px;
+}
+
+.logo-footer {
+    display: block;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.address-map {
+    color: var(--third-color);
+}
+
+.address-email,
+.address-phone-number {
+    color: var(--fourth-color);
+}
+
+.address-footer {
+    margin-top: 20px;   
+}
+
+.address-footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-footer-item-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-footer-item-link:hover,
+.address-footer-item-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-social-link-title {
+    margin-bottom: 20px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-color);
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #44454E;
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-social-list-icon {
+    fill: var(--third-color);
+}
+
+/* .footer {
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -593,7 +701,7 @@ body {
 
 .footer-container {
     display: flex;
-    /* margin-right: 70px; */
+
 }
 
 .logo-footer {
@@ -674,6 +782,6 @@ body {
 .footer-social-list-link:hover .social-list-icon,
 .footer-social-list-link:focus .social-list-icon {
     fill: var(--third-color);
-}
+} */
 
 /* ========== /FOOTER ========== */
